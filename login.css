@@ -1,0 +1,118 @@
+
+.form{
+    width: 200px;
+    height: 300px;
+    top: 150px;
+    left: 580px;
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+  
+}
+
+.form h1{
+    width: 200px;
+    font-family: Arial;
+    text-align: center;
+    color:black;
+    font-size: 22px;
+
+    border-radius: 10px;
+    margin: 2px;
+
+}
+    
+
+ .form h2{
+     width: 200px;
+     font-family: Arial;
+     text-align: center;
+     color: aliceblue;
+     font-size: 22px;
+     background-color: coral;
+     border-radius: 10px;
+     margin: 2px;
+     padding: 8px;
+ }
+
+ .form input{
+     width: 220px;
+     height: 35px;
+     background: transparent;
+     
+    
+     font-size: 15px;
+     letter-spacing: 1px;
+     margin-top:15px;
+     font-family: Arial;
+ }
+ .btnn{
+     width: 220px;
+     height: 35px;
+     background: coral;
+     border: none;
+     font-size: 15px;
+     border-radius: 10px;
+     color: aliceblue;
+ }
+ .form .link{
+     font-family: Arial;
+     font-size: 15px;
+     text-align: center;
+ }
+
+     
+ .sign-up-form{
+    width: 200px;
+    height: 300px;
+    top: 150px;
+    left: 580px;
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+
+ }
+
+ .sign-up-form h2{
+    width: 200px;
+    font-family: Arial;
+    text-align: center;
+    color: aliceblue;
+    font-size: 22px;
+    background-color: coral;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+ }
+
+ .input-box{
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    
+   
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top:15px;
+    font-family: Arial;
+
+ }
+
+ button{
+    width: 220px;
+    height: 35px;
+    background: coral;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    color: aliceblue;
+
+ }
+
+ 
+
+

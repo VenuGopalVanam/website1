@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"href="index.css">
+
+</head>
+<body>
+        
+<div class="main">
+    <div class="navbar">
+        <div class="icon">
+
+    
+        <h2 class="logo">TREE COACHING WEBSITE</h2>
+        </div>
+        
+        <header>
+        <nav class="navbar">
+            <a class="active" href="#home">HOME</a>
+           
+            <a href="#about">ABOUT</a>
+            <a href="Contact.html">CONTACTUS</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  
+                  <a href="courses.html">Course details</a>
+                  <a href="login.html">StudentLogin</a>
+                  <a href="generalrules.html">General Information </a>
+                  <a href="#">project research oppurtunities</a>
+                </div>
+        </nav>
+ 
+  <button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+
+  
+  </script>
+   <h1>WELCOME TO TREE COACHING WEBSITE</h1>
+             
+</div>
+
+
+    
+<div class="footer">
+  <div class="box-container">
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-map-marker-alt"></i> Hyderabad, India 500001. </p>
+          <p> <i class="fas fa-envelope"></i> treecoaching@gmail.com </p>
+          <p> <i class="fas fa-phone"></i> +91 123-456-7890 </p>
+      </div>
+                 
+  </div>
+  
+</body>
+</html>
